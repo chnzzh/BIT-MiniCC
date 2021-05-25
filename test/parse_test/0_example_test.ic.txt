@@ -1,0 +1,6 @@
+func &sum(var %a i32, var %b i32) i32{
+dassign %3(
+	add i32(dread i32 %a,dread i32 %b))
+dassign %4(regread i32 %3)
+return (regread i32 %4)}
+
